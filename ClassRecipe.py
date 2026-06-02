@@ -30,7 +30,7 @@ class Recipe:
 
     def __len__(self):
         return len(self.ingredients)
-    
+
     def __str__(self):
         result = self.title + "\n"
         for ingredient in self.ingredients:
